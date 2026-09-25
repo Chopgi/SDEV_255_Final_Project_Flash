@@ -1,6 +1,6 @@
-**SDEV 255 - Web Application Development, Final Project**
-
 # Course Sign-Up & Drop App - Team Flash
+
+**SDEV 255 - Web Application Development, Final Project**
 
 A web application that lets teachers create, edit, and delete courses, and lets students search for, sign up for, and drop courses from their schedule.
 
