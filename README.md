@@ -7,7 +7,7 @@ A web application that lets teachers create, edit, and delete courses, and lets 
 
 ## Team:
 |  Name   |    Role                                                                                   |
-|-----------------------------------------------------------------------------------------------------|
+|---------|-------------------------------------------------------------------------------------------|
 |  Adrian |    Database (course & login storage)                                                      |
 |  Kira   |    server-side API using Node and Express (receive requests to CRUD the data in database) |
 |  Raven  |    front-end UI/UX design and visuals                                                     |
