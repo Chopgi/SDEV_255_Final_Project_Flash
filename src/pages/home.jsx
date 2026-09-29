@@ -1,7 +1,7 @@
-function CourseIndex() {
+function Home() {
   return (
     <>
-      <title>Course Index</title>
+      <title>Teacher Home</title>
       <div className="row" style={{ height: "100px" }}>
         <div className="col-sm-9 p-3 bg-secondary text-white text-center fs-1">
           Lorem Ipsum School of Placeholder
@@ -15,7 +15,7 @@ function CourseIndex() {
       </div>
 
       <div className="container p-5 my-5 bg-secondary text-white text-center">
-        <h1>Course Index</h1>
+        <h1>Your current course list:</h1>
         <form className="d-flex">
           <input
             className="form-control me-2"
@@ -68,4 +68,4 @@ function CourseIndex() {
     </>
   );
 }
-export default CourseIndex;
+export default Home;

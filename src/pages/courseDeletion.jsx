@@ -1,7 +1,7 @@
-function CourseIndex() {
+function CourseDeletion() {
   return (
     <>
-      <title>Course Index</title>
+      <title>Course Deletion</title>
       <div className="row" style={{ height: "100px" }}>
         <div className="col-sm-9 p-3 bg-secondary text-white text-center fs-1">
           Lorem Ipsum School of Placeholder
@@ -15,7 +15,7 @@ function CourseIndex() {
       </div>
 
       <div className="container p-5 my-5 bg-secondary text-white text-center">
-        <h1>Course Index</h1>
+        <h1>Delete a Course</h1>
         <form className="d-flex">
           <input
             className="form-control me-2"
@@ -41,6 +41,11 @@ function CourseIndex() {
               similique modi est reiciendis error, aliquid architecto culpa.
             </div>
             <div className="card-footer">Credit Hours: 3</div>
+            <div className="card-footer">
+              <button className="btn btn-danger" type="button">
+                x Delete Course
+              </button>
+            </div>
           </div>
         </div>
 
@@ -56,16 +61,15 @@ function CourseIndex() {
               beatae provident error nulla! Dolorum, rerum!
             </div>
             <div className="card-footer">Credit Hours: 3</div>
+            <div className="card-footer">
+              <button className="btn btn-danger" type="button">
+                x Delete Course
+              </button>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div className="row" style={{ height: "100px" }}>
-        <div className="col-sm-12 p-3 bg-secondary text-warning text-center fs-6">
-          Copyright
         </div>
       </div>
     </>
   );
 }
-export default CourseIndex;
+export default CourseDeletion;
